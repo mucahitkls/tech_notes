@@ -22,6 +22,8 @@ Headers provide additional information about the response. Common response heade
 
 The body contains the data being sent back to the client. This could be a webpage, an image, a JSON object, etc., depending on the request and server configuration.
 
+
+![[response-structure.webp]]
 ## Example HTTP Response
 
 makefileCopy code

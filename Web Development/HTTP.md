@@ -60,3 +60,6 @@ Since HTTP is not encrypted, data sent over HTTP is susceptible to interception 
 ## Conclusion
 
 HTTP is a foundational protocol for the web, enabling the transfer of hypertext documents. It's the bridge between clients and servers, allowing them to communicate and exchange data. Understanding HTTP is crucial for web development, as it's involved in virtually every interaction on the web. Whether some is browsing a website, logging into an account, or posting on social media, HTTP is working behind the scenes to make it all happen.
+
+## Resources
+https://www.apinewbies.com/api-request/

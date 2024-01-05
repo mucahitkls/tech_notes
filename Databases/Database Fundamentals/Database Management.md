@@ -4,43 +4,44 @@ Database Management involves the use of database management systems (DBMS) to st
 
 ## Key Concepts in Database Management
 
-### 1. Database:
+### 1. [[Database]]:
 
 A structured set of data held in a computer, typically accessed electronically. Databases are designed to offer an organized mechanism for storing, managing, and retrieving information.
 
-### 2. DBMS (Database Management System):
+### 2. [[DBMS (Database Management System)]]:
 
 Software that interacts with end-users, applications, and the database itself to capture and analyze data. It allows users to define, create, maintain, and control access to the database. Examples include MySQL, PostgreSQL, Oracle, MongoDB, and SQL Server.
 
-### 3. Schema:
+### 3. [[Schema in Databases |Schema]]:
+
 
 Defines the structure and organization of data in a database, including tables, fields, and the relationships between them.
 
-### 4. Query:
+### 4. [[Query in Databases |Query]]:
 
 A request for data or information from a database table or combination of tables. SQL (Structured Query Language) is the most commonly used query language.
 
 ## Types of Databases
 
-### 1. Relational Databases (SQL):
+### 1. [[Relational Databases (SQL)]]:
 Stores data in tables with rows and columns. Each row represents a unique record, and each column represents a field in the record. Popular for their flexibility and standardized language (SQL).
 
-### 2. Non-Relational Databases (NoSQL):
+### 2. [[Non-Relational Databases (NoSQL)]]:
 A mechanism for storage and retrieval of data that is modeled differently from the tabular relations used in relational databases. Includes document databases, key-value stores, wide-column stores, and graph databases. They are particularly useful for managing large sets of distributed data and are known for their ability to handle large volumes of unstructured data.
 
 ## Principles of Database Management
 
-### 1. ACID Properties:
+### 1. [[ACID Properties]]:
 A set of principles that guarantee reliable processing of database transactions.
 - **Atomicity**: Ensures that each transaction is all or nothing.
 - **Consistency**: Ensures that any transaction will bring the database from one valid state to another.
 - **Isolation**: Ensures that the concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially.
 - **Durability**: Ensures that once a transaction has been committed, it will remain so.
 
-### 2. Normalization:
+### 2. [[Normalization in Database Management|Normalization]]:
 The process of organizing data in a database to reduce redundancy and improve data integrity.
 
-### 3. Indexing:
+### 3. [[Indexing in Databases|Indexing]]:
 The process of creating indexes to allow fast retrieval of data from the database.
 
 ### 4. Security:
