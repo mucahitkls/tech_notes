@@ -1,0 +1,1 @@
+These folder contains my explanations for each concept or function related SQLAlchemy. I am trying to explain technical terms like to a 5 years old kid.
