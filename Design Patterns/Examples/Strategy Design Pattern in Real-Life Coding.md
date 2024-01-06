@@ -79,9 +79,9 @@ console.log(largeOrder.calculateShipping());  // Shipping cost for a large item
 ```
 
 **Improvements**: 
-- **Flexibility**: Easily switch or add new shipping strategies without modifying the `Order` class.
-- **Decoupling**: Shipping logic is decoupled from the order logic, adhering to the single responsibility principle.
-- **Maintainability**: Each shipping strategy can be maintained independently, improving maintainability.
+- **[[Flexibility in Software Development|Flexibility]]**: Easily switch or add new shipping strategies without modifying the `Order` class.
+- **[[Decoupling in Software Development|Decoupling]]**: Shipping logic is decoupled from the order logic, adhering to the single responsibility principle.
+- **[[Maintainability in Software Development|Maintainability]]**: Each shipping strategy can be maintained independently, improving maintainability.
 
 ## Python Example: Content Rendering
 
@@ -151,8 +151,8 @@ print(content.render())  # Markdown rendering
 ```
 
 **Improvements**: 
-- **Flexibility**: Easily switch or add new rendering strategies without modifying the `Content` class.
-- **Decoupling**: Rendering logic is decoupled from the content logic, adhering to the single responsibility principle.
-- **Scalability**: The system can easily accommodate new rendering formats as needed.
+- **[[Flexibility in Software Development|Flexibility]]**: Easily switch or add new rendering strategies without modifying the `Content` class.
+- **[[Decoupling in Software Development|Decoupling]]**: Rendering logic is decoupled from the content logic, adhering to the single responsibility principle.
+- **[[Scalability in Software Development|Scalability]]**: The system can easily accommodate new rendering formats as needed.
 
 In both examples, the Strategy pattern significantly improved the design of the system by providing a flexible and scalable way to introduce different behaviors (shipping strategies, rendering formats). It decouples the context (Order, Content) from the strategies, adhering to the open/closed principle and making the system more robust and easier to maintain. This pattern is especially useful in systems where multiple algorithms or behaviors might be required, enabling smooth operation and better adaptability to future changes.

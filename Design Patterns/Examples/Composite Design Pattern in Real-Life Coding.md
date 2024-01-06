@@ -108,7 +108,7 @@ console.log(folder.getSize());  // 30 - Cumulative size of all files in the fold
 **Improvements**: 
 - **Unified Interface**: Files and folders are treated uniformly. Operations like `getSize()` are part of a common interface.
 - **Simplified Hierarchy Management**: Adding or removing children is now straightforward and less error-prone.
-- **Scalability**: Introducing new operations or components doesn't require changing existing code, adhering to the open/closed principle.
+- **[[Scalability in Software Development|Scalability]]**: Introducing new operations or components doesn't require changing existing code, adhering to the open/closed principle.
 
 ## Python Example: Menu System
 
@@ -209,7 +209,7 @@ main_menu.print()
 **Improvements**: 
 - **Unified Interface**: Menu items and sub-menus are treated uniformly. Both types of objects implement a common interface.
 - **Simplified Hierarchy Management**: Adding or removing items or sub-menus is now straightforward.
-- **Scalability**: Introducing new types of menu components or operations is easier and doesn't require extensive refactoring.
+- **[[Scalability in Software Development|Scalability]]**: Introducing new types of menu components or operations is easier and doesn't require extensive refactoring.
 
 In both examples, the Composite pattern simplified the management of hierarchical structures and allowed treating individual objects and compositions uniformly. This pattern is especially beneficial in scenarios where you're dealing with a tree-like structure and want to perform operations on all elements of the
 

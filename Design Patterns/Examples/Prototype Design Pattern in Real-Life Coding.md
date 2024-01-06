@@ -59,8 +59,8 @@ console.log(similarProduct);  // Modified product
 
 **Improvements**: 
 - **Efficiency**: Cloning is typically more efficient than recreating objects from scratch, especially for complex objects.
-- **Flexibility**: It's easy to create variations of existing products.
-- **Maintainability**: Centralizing the object creation process makes the codebase easier to maintain and less error-prone.
+- **[[Flexibility in Software Development|Flexibility]]**: It's easy to create variations of existing products.
+- **[[Maintainability in Software Development|Maintainability]]**: Centralizing the object creation process makes the codebase easier to maintain and less error-prone.
 
 ## Python Example: Graphic Objects
 
@@ -119,6 +119,6 @@ print(similar_rectangle.color)  # green
 **Improvements**: 
 - **Efficiency**: Cloning shapes is more efficient than recreating them, especially as shapes become more complex.
 - **Consistency**: Ensures that duplicated shapes start with identical properties.
-- **Flexibility**: Easy to implement variations of existing shapes without complex logic.
+- **[[Flexibility in Software Development|Flexibility]]**: Easy to implement variations of existing shapes without complex logic.
 
 In both examples, the Prototype pattern offers an efficient and flexible way to create new instances based on existing objects. This approach is especially beneficial when dealing with complex object creation processes or when objects need to be duplicated with only minor variations. The resulting system is more maintainable, scalable, and robust against changes.

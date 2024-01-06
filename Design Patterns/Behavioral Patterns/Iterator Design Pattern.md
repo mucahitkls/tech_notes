@@ -197,7 +197,7 @@ for item in data:
 ```
 
 **Improvements**: 
-- **Decoupling**: The client is decoupled from the data structure's internals.
+- **[[Decoupling in Software Development|Decoupling]]**: The client is decoupled from the data structure's internals.
 - **Ease of Use**: The client can easily traverse the data without knowing its structure.
 - **Flexibility**: Different types of iterators (e.g., forward, backward) can be implemented without changing the data structure.
 

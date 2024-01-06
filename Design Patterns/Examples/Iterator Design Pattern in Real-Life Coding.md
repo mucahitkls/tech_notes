@@ -85,8 +85,8 @@ while (iterator.hasNext()) {
 ```
 
 **Improvements**: 
-- **Decoupling**: Your code is now decoupled from the feed's data structure, leading to more flexible and maintainable code.
-- **Flexibility**: You can change the feed's internal structure without affecting the code that traverses the feed.
+- **[[Decoupling in Software Development|Decoupling]]**: Your code is now decoupled from the feed's data structure, leading to more flexible and maintainable code.
+- **[[Flexibility in Software Development|Flexibility]]**: You can change the feed's internal structure without affecting the code that traverses the feed.
 - **Control**: The iterator can provide different ways of traversing the feed, such as filtering certain types of content.
 
 ## Python Example: Custom Data Aggregator
@@ -162,7 +162,7 @@ for item in source2.getIterator():
 
 **Improvements**: 
 - **Decoupling**: Your code is decoupled from the data sources' internal structures.
-- **Uniformity**: The same iteration interface is used for all data sources, leading to simpler and more consistent code.
+- **[[Uniformity in Software Development|Uniformity]]**: The same iteration interface is used for all data sources, leading to simpler and more consistent code.
 - **Extensibility**: Adding new data sources with different structures doesn't require changes to the iteration logic.
 
 In both examples, the Iterator pattern allows for a standardized and flexible way to access elements from various collections or aggregators. This pattern is particularly useful in scenarios where you're dealing with complex data structures or when you want to provide a uniform way to traverse different types of collections. The resulting architecture is more maintainable, scalable, and adaptable to new types of collections or data sources.

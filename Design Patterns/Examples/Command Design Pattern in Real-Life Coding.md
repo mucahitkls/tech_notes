@@ -122,8 +122,8 @@ remote.revert(fanOn);    // Fan turned off
 ```
 
 **Improvements**: 
-- **Decoupling**: The invoker (`RemoteControl`) is decoupled from the receivers (`Light`, `Fan`). It only knows about the command interface.
-- **Flexibility**: Easy to add new commands or change the order of execution.
+- **[[Decoupling in Software Development|Decoupling]]**: The invoker (`RemoteControl`) is decoupled from the receivers (`Light`, `Fan`). It only knows about the command interface.
+- **[[Flexibility in Software Development|Flexibility]]**: Easy to add new commands or change the order of execution.
 - **Undo functionality**: You can easily add undo functionality for commands.
 
 ## Python Example: Text Editor Actions
@@ -236,7 +236,7 @@ print(editor.text)  # Output: Hello,
 ```
 
 **Improvements**: 
-- **Decoupling**: The command manager is decoupled from the editor's actions. It only knows about the command interface.
+- **[[Decoupling in Software Development|Decoupling]]**: The command manager is decoupled from the editor's actions. It only knows about the command interface.
 - **Undo/Redo functionality**: You can easily implement undo/redo functionality by maintaining a history of commands.
 - **Macro functionality**: You can easily create macros by executing a series of commands.
 

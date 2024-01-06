@@ -88,9 +88,9 @@ product.setPrice(899);  // User1 gets notified through the observer mechanism
 ```
 
 **Improvements**: 
-- **Decoupling**: `Product` and `User` are now decoupled, following the Observer pattern.
-- **Flexibility**: It's easier to add new types of observers without modifying the `Product` class.
-- **Scalability**: The system can easily handle a growing number of users and products.
+- **[[Decoupling in Software Development|Decoupling]]**: `Product` and `User` are now decoupled, following the Observer pattern.
+- **[[Flexibility in Software Development|Flexibility]]**: It's easier to add new types of observers without modifying the `Product` class.
+- **[[Scalability in Software Development|Scalability]]**: The system can easily handle a growing number of users and products.
 
 ## Python Example: Weather Station
 
@@ -179,8 +179,8 @@ weatherStation.setTemperature(25)  # Both displays get updated
 ```
 
 **Improvements**: 
-- **Decoupling**: The `WeatherStation` is decoupled from the display elements, adhering to the Observer pattern.
-- **Flexibility**: Adding new display elements is easy and doesn't require changes to the `WeatherStation`.
-- **Scalability**: The system can easily accommodate new types of displays as needed.
+- **[[Decoupling in Software Development|Decoupling]]**: The `WeatherStation` is decoupled from the display elements, adhering to the Observer pattern.
+- **[[Flexibility in Software Development|Flexibility]]**: Adding new display elements is easy and doesn't require changes to the `WeatherStation`.
+- **[[Scalability in Software Development|Scalability]]**: The system can easily accommodate new types of displays as needed.
 
 In both examples, the Observer pattern provides a highly efficient way to handle one-to-many relationships between objects. It allows objects to observe and react to events without creating a tight coupling between them. This approach is especially useful in situations where a change to one object requires updates to many others, such as in UIs, event management systems, and data synchronization scenarios. The resulting architecture is more maintainable, scalable, and adaptable to changes.

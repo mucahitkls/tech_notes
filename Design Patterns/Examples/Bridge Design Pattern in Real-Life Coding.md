@@ -93,9 +93,9 @@ fordTruck.manufacture();  // Manufacturing Truck, Manufacturing Ford Vehicle
 ```
 
 **Improvements**: 
-- **Decoupling**: Vehicle types are decoupled from vehicle brands, allowing you to combine any vehicle type with any brand.
-- **Scalability**: Adding a new vehicle type or brand doesn't require creating new classes for each combination.
-- **Flexibility**: You can easily switch brands or vehicle types without changing the existing class hierarchy.
+- **[[Decoupling in Software Development|Decoupling]]**: Vehicle types are decoupled from vehicle brands, allowing you to combine any vehicle type with any brand.
+- **[[Scalability in Software Development|Scalability]]**: Adding a new vehicle type or brand doesn't require creating new classes for each combination.
+- **[[Flexibility in Software Development|Flexibility]]**: You can easily switch brands or vehicle types without changing the existing class hierarchy.
 
 ## Python Example: Message Sending System
 
@@ -172,8 +172,8 @@ smsSender.send("Hello, World!")  # Sending SMS: Sending 'Hello, World!' via Twil
 ```
 
 **Improvements**: 
-- **Decoupling**: The message sending method is decoupled from the provider, allowing any combination of method and provider.
-- **Scalability**: Adding a new method or provider is straightforward and doesn't require new classes for each combination.
-- **Flexibility**: Switching providers or methods can be done at runtime without any changes to the existing codebase.
+- **[[Decoupling in Software Development|Decoupling]]**: The message sending method is decoupled from the provider, allowing any combination of method and provider.
+- **[[Scalability in Software Development|Scalability]]**: Adding a new method or provider is straightforward and doesn't require new classes for each combination.
+- **[[Flexibility in Software Development|Flexibility]]**: Switching providers or methods can be done at runtime without any changes to the existing codebase.
 
 In both examples, the Bridge pattern allows for better organization and scalability by separating two orthogonal dimensions (vehicle type and brand, message sending method and provider). It promotes a more manageable and flexible codebase, reducing the need for a large number of classes and simplifying future enhancements. This pattern is particularly valuable in systems where objects come in several types and are used in different combinations, each with potentially different behavior.

@@ -82,8 +82,8 @@ map.show('London');    // Switching to Leaflet without major code changes
 
 **Improvements**: 
 - **[[Decoupling in Software Development|Decoupling]]**: Your application is now decoupled from specific map providers. It interacts with a consistent interface, `MapInterface`.
-- **Flexibility**: Switching map providers or adding new ones doesn't require significant changes in your application's code. You just need to introduce a new adapter.
-- **Maintainability**: With the application depending on a stable interface, the overall codebase becomes more maintainable and robust against changes in third-party services.
+- **[[Flexibility in Software Development|Flexibility]]**: Switching map providers or adding new ones doesn't require significant changes in your application's code. You just need to introduce a new adapter.
+- **[[Maintainability in Software Development|Maintainability]]**: With the application depending on a stable interface, the overall codebase becomes more maintainable and robust against changes in third-party services.
 
 ## Python Example: Payment Processing System
 

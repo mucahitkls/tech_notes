@@ -69,7 +69,7 @@ console.log(configManager1.getSetting('apiKey'));  // super-secret-key
 ```
 
 **Improvements**: 
-- **Consistency**: There's now only one instance of the configuration manager throughout the application.
+- **[[Consistency in Software Development|Consistency]]**: There's now only one instance of the configuration manager throughout the application.
 - **Control**: Centralized management of application settings.
 - **Memory Efficiency**: Only one instance of the configuration manager exists, saving memory.
 
@@ -129,7 +129,7 @@ print(pool2.getConnection())  # Connection1
 
 **Improvements**: 
 - **Resource Management**: All parts of the application share the same connection pool, leading to better resource management.
-- **Consistency**: Consistent state of the connection pool across the application.
+- **[[Consistency in Software Development|Consistency]]**: Consistent state of the connection pool across the application.
 - **Control**: Centralized control over the database connections.
 
 In both examples, the Singleton pattern significantly improved resource management and consistency by ensuring that only one instance of a crucial resource manager exists. The Singleton pattern is particularly useful when exactly one object is needed to coordinate actions across the system, as in the case of configuration managers or connection pools. It's a powerful tool for managing shared resources, but it should be used judiciously as it introduces a global state into the application, which can complicate testing and debugging.

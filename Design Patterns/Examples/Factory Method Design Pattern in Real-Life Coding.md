@@ -92,9 +92,9 @@ sms.send('Hello, SMS!');
 ```
 
 **Improvements**: 
-- **Flexibility**: New notification types can be added without altering the client code.
-- **Decoupling**: The client is decoupled from the concrete classes and relies on the factory for object creation.
-- **Scalability**: The code is more maintainable and scalable as new notification types are introduced.
+- **[[Flexibility in Software Development|Flexibility]]**: New notification types can be added without altering the client code.
+- **[[Decoupling in Software Development|Decoupling]]**: The client is decoupled from the concrete classes and relies on the factory for object creation.
+- **[[Scalability in Software Development|Scalability]]**: The code is more maintainable and scalable as new notification types are introduced.
 
 ## Python Example: Transport Service
 
@@ -173,8 +173,8 @@ sea.deliver()
 ```
 
 **Improvements**: 
-- **Flexibility**: You can add new transport types without altering existing client code.
-- **Decoupling**: The client doesn't need to know the details of object creation, leading to cleaner and more maintainable code.
-- **Scalability**: The system becomes more scalable and easier to extend with new types of transportation.
+- **[[Flexibility in Software Development|Flexibility]]**: You can add new transport types without altering existing client code.
+- **[[Decoupling in Software Development|Decoupling]]**: The client doesn't need to know the details of object creation, leading to cleaner and more maintainable code.
+- **[[Scalability in Software Development|Scalability]]**: The system becomes more scalable and easier to extend with new types of transportation.
 
 In both examples, the Factory Method pattern significantly improved the design of the system by providing a flexible and scalable way to create objects. It decouples the client code from the concrete classes and adheres to the open/closed principle, making the system more robust and easier to maintain. This pattern is especially useful in systems where the types of objects to create can vary and might be extended in the future.
