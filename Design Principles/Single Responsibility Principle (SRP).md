@@ -30,11 +30,11 @@ The Single Responsibility Principle is one of the five SOLID principles of objec
 
 ## Advanced Aspects of SRP
 
-### SRP and Software Architecture:
+### SRP and [[Software Architecture|Software Architecture]]:
 
 - SRP isn't just for classes. It can and should be applied at the component and module level. Each component or service in a system should have a single purpose.
   
-### SRP and Microservices:
+### SRP and [[Microservices Architecture|Microservices]]:
 
 - In microservices architecture, SRP plays a vital role in defining the boundaries of each service. Each microservice should be responsible for a single part of the functionality.
 

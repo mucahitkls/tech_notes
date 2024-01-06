@@ -3,7 +3,7 @@
 
 Composition Over Inheritance is a principle that encourages the use of composition (combining simple objects to build more complex ones) rather than inheritance (forming hierarchical relationships between classes) to achieve polymorphic behavior and code reuse. This principle is a fundamental concept in object-oriented design and is particularly relevant when considering the flexibility and maintainability of a system.
 
-## Understanding Composition Over Inheritance
+## Understanding [[Composition in Object-Oriented Programming (OOP)|Composition]] Over [[Inheritance in Object-Oriented Programming (OOP)|Inheritance]]
 
 ### Definition:
 

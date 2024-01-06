@@ -69,11 +69,11 @@ Software architecture refers to the fundamental structures of a software system 
 
 - Structures an application as a collection of loosely coupled services, which implement business capabilities.
 
-### Service-Oriented Architecture (SOA):
+### [[Service-Oriented Architecture (SOA)]]:
 
 - A style of software design where services are provided to the other components by application components, through a communication protocol over a network.
 
-### Event-Driven Architecture:
+### [[Event-Driven Architecture]]:
 
 - A software architecture paradigm promoting the production, detection, consumption of, and reaction to events.
 
