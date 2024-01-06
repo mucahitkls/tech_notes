@@ -193,4 +193,6 @@ transport.deliver()
 - **Decoupling**: The logistics management code is decoupled from the concrete transport classes. It interacts with the Transport interface.
 - **Flexibility**: Adding a new transport type doesn't require changes to the logistics management code.
 
+See an extensive [[Factory Method Design Pattern in Real-Life Coding|example]].
+
 In both examples, the Factory Method pattern provides a way to encapsulate the instantiation of a class. This pattern allows the code to remain flexible and scalable. As your system evolves and the number of concrete classes grows, the pattern becomes increasingly beneficial, helping to keep your codebase manageable and clean.

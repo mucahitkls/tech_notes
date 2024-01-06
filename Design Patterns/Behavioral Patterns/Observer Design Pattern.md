@@ -191,4 +191,6 @@ aapl.set_price(150)  # Both Alice and Bob are alerted that AAPL is now at $150
 - **Dynamic**: New investors can be added or removed at any time without changing the `Stock` or other investors.
 - **Automatic Notification**: All investors are automatically notified when the stock price changes.
 
+See an extensive [[Observer Design Pattern in Real-Life Coding|example]].
+
 In both examples, the Observer pattern provides a way to create a flexible notification mechanism that's easy to extend and maintain. It ensures that all interested parties are kept up to date with changes without the need for tightly coupled code. While the Observer pattern is powerful and widely applicable, it's essential to be aware of potential pitfalls, such as the possibility of memory leaks if observers are not correctly removed when they are no longer needed.

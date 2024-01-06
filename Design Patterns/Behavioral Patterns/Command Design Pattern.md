@@ -219,4 +219,6 @@ menu.click_paste()  # Text pasted
 - **Undo Functionality**: You can extend this pattern to support undo functionality by keeping a history of executed commands.
 - **Dynamic Command Execution**: Commands can be added, removed, or modified at runtime, providing dynamic behavior.
 
+See an extensive [[Command Design Pattern in Real-Life Coding|example]].
+
 In both examples, the Command pattern allows you to encapsulate requests as objects, thereby allowing for parameterization of clients with queues, requests, and operations. It provides a mechanism to decouple the invoker of an action from the object that knows how to perform it. This pattern is particularly useful when you need to implement features like undo/redo, logging, transactions, and more.

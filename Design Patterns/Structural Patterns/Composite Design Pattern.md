@@ -132,6 +132,7 @@ compositeGraphic.draw();  // Drawing a circle. Drawing a circle. Drawing a squar
 - **Flexibility**: It's easy to add new shapes or groups of shapes.
 - **Simplicity**: The client code can remain simple even as the complexity of the composition increases.
 
+See an extensive [[Composite Design Pattern in Real-Life Coding|example]].
 ## Python Example of Composite Pattern
 
 ### Scenario: Company Employees System

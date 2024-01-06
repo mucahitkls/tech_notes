@@ -150,4 +150,6 @@ print(product1.__dict__, product2.__dict__)
 - **Efficiency**: Cloning reduces the need for re-creating objects from scratch.
 - **Flexibility**: You can dynamically update the prototype and all future clones will reflect the change.
 
+See an extensive [[Prototype Design Pattern in Real-Life Coding|example]].
+
 In both examples, the Prototype pattern provides a way to create new objects efficiently by cloning an existing object and modifying it. This approach is particularly beneficial when object creation is costly or complex, and when objects share many common attributes. It simplifies and streamlines the process of object creation, leading to cleaner, more maintainable code.

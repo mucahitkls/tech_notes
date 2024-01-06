@@ -192,4 +192,6 @@ cost_calculator.calculate_cost(/* some package */)
 - **Decoupling**: The cost calculation algorithms are decoupled from the context class.
 - **Extendability**: Introducing a new transportation method is as simple as adding a new strategy.
 
+See an extensive [[Strategy Design Pattern in Real-Life Coding|example]].
+
 In both examples, the Strategy pattern allows for a flexible and interchangeable set of algorithms that can be selected and utilized at runtime. This results in a cleaner, more modular, and maintainable codebase that is open for extension but closed for modification. It's a powerful pattern for scenarios where multiple algorithms or behaviors might be required, enabling smooth operation and better

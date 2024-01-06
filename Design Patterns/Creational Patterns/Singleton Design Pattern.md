@@ -141,4 +141,6 @@ print(logger1 is logger2)  # True - Same instance
 - **Controlled Resource Access**: The log file is managed by a single instance, preventing conflicts and overlapping writes.
 - **Global Access**: The logger instance can be accessed globally in a consistent manner.
 
+See an extensive [[Singleton Design Pattern in Real-Life Coding|example]].
+
 In both examples, the Singleton pattern ensures that a class has only one instance and provides a global point of access to it. This is particularly useful for managing resources and states that are shared across various parts of an application. While Singleton is a powerful pattern, it should be used judiciously as it introduces a global state into an application and can make testing more difficult due to its inherent statefulness.

@@ -201,4 +201,6 @@ for item in data:
 - **Ease of Use**: The client can easily traverse the data without knowing its structure.
 - **Flexibility**: Different types of iterators (e.g., forward, backward) can be implemented without changing the data structure.
 
+See an extensive [[Iterator Design Pattern in Real-Life Coding|example]].
+
 In both examples, the Iterator pattern simplifies the client's interaction with the collection, providing a clean and straightforward way to access its elements without exposing its internal structure. It's a powerful pattern for collections that require a specific traversal mechanism or when you want to provide multiple ways to iterate over a collection. The Iterator pattern enhances modularity and readability, making the codebase more maintainable and flexible.

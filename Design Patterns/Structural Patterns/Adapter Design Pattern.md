@@ -118,4 +118,6 @@ device.useAC(120)  # Converting from AC to DC. Using 120V DC power.
 
 In this example, the `Adapter` class inherits from both `ACDevice` (the target interface) and `DCDevice` (the adapter). It overrides the `useAC` method from `ACDevice` to include a call to the `useDC` method from `DCDevice`, thereby adapting the interface.
 
+See an extensive [[Adapter Design Pattern in Real-Life Coding|example]].
+
 Both examples demonstrate the Adapter pattern's ability to let existing components work together without significant rework. The pattern provides a simple interface to the client, and hides the complexities of interaction between different systems or components. This results in a more modular, understandable, and maintainable codebase.

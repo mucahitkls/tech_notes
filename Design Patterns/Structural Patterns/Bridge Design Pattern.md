@@ -214,4 +214,6 @@ emailMessage.send("Hello")  # User Message: Email: Hello
 - **Flexibility**: It's easy to add new message types or methods.
 - **Single Responsibility**: The `Message` handles the message-related logic, and `MessageSender` handles the delivery method.
 
+See an extensive [[Bridge Design Pattern in Real-Life Coding|example]].
+
 In both examples, the Bridge pattern allows for a more flexible and maintainable system by separating the high-level logic from the low-level details. The system becomes easier to extend and less prone to errors caused by changes.
