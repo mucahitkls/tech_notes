@@ -7,14 +7,14 @@ Decoupling is a principle in software development that aims to reduce dependenci
 1. **Maintainability**: Changes in one part of the system have minimal impact on others, making it easier to manage and evolve the code.
 2. **Reusability**: Decoupled components can be reused in different contexts or projects.
 3. **Testability**: Decoupled code is easier to test as components can be tested in isolation.
-4. **Flexibility**: It's easier to replace or modify components without affecting the rest of the system.
+4. **[[Flexibility in Software Development|Flexibility]]**: It's easier to replace or modify components without affecting the rest of the system.
 
 ## Strategies for Decoupling:
 
 1. **Use Interfaces**: Define clear interfaces for components. Other components should depend on these interfaces rather than concrete implementations.
 2. **Dependency Injection**: Pass dependencies into an object rather than hardcoding them inside the object.
-3. **Event-Driven Architecture**: Components communicate through events rather than direct calls.
-4. **Service-Oriented Architecture**: Break down the application into small, loosely coupled services.
+3. **[[Event-Driven Architecture|Event-Driven Architecture]]**: Components communicate through events rather than direct calls.
+4. **[[Service-Oriented Architecture (SOA)|Service-Oriented Architecture]]|**: Break down the application into small, loosely coupled services.
 
 ## JavaScript Example: Event-Driven Architecture
 

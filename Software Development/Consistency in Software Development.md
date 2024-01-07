@@ -13,7 +13,7 @@ Consistency in software development refers to the adherence to a set of standard
 ## Strategies for Improving Consistency:
 
 1. **Coding Standards and Style Guides**: Establish and enforce coding standards and style guides.
-2. **Design Patterns**: Use design patterns consistently where appropriate.
+2. **[[Design Patterns in Software Development|Design Patterns]]**: Use design patterns consistently where appropriate.
 3. **Code Reviews**: Regularly perform code reviews to ensure consistency and adherence to standards.
 4. **Automated Linting and Formatting Tools**: Use tools to automatically enforce coding standards and styles.
 5. **Component Libraries and Shared Resources**: Use shared libraries and components to ensure UI and functionality are consistent.
