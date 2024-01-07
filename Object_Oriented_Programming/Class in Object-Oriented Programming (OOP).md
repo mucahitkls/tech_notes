@@ -1,6 +1,9 @@
-## Introduction to Class in OOP
+## Introduction to Class in [[Object-Oriented Programming (OOP)|OOP]]
 
 In Object-Oriented Programming, a class is a blueprint for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods). Classes are fundamental constructs in OOP that encapsulate data and functionality to promote modular and reusable code.
+
+![[class_representation.png#center|500]]
+
 
 ## Understanding Class in OOP
 
@@ -40,23 +43,23 @@ In Object-Oriented Programming, a class is a blueprint for creating objects, pro
 
 ## Advanced Aspects of Class in OOP
 
-### 1. Inheritance:
+### 1. [[Inheritance in Object-Oriented Programming (OOP)|Inheritance]]:
 
 - The ability of a class to inherit properties and methods from another class. It promotes code reuse and establishes a hierarchy.
 
-### 2. Polymorphism:
+### 2. [[Polymorphism in Object-Oriented Programming (OOP)|Polymorphism]]:
 
 - The ability to present the same interface for differing underlying data types. In classes, it allows methods to do different things based on the object it is acting upon.
 
-### 3. Abstraction:
+### 3. [[Abstraction in Object-Oriented Programming (OOP)|Abstraction]]:
 
 - Hiding complex implementation details and only showing the essential features of an object. Abstract classes and interfaces achieve this.
 
-### 4. Encapsulation:
+### 4. [[Encapsulation in Object-Oriented Programming (OOP)|Encapsulation]]:
 
 - The bundling of data with the methods that operate on that data. It restricts direct access to some of an object's components, which is a fundamental aspect of classes.
 
-### 5. Composition:
+### 5. [[Composite Design Pattern|Composition]]:
 
 - A design principle where class functionality is obtained by including instances of other classes.
 

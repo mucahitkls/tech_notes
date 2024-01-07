@@ -2,6 +2,11 @@
 
 Object-Oriented Programming (OOP) is a programming paradigm centered around objects rather than actions. It's a method of structuring a program by bundling related properties and behaviors into individual objects. Essentially, OOP models real-world entities as software objects that have some data associated with them and can perform certain functions.
 
+
+![[Object_oriented_programming.png#center|500]]
+
+
+
 ## Understanding OOP
 
 ### Definition:
@@ -13,7 +18,6 @@ Object-Oriented Programming (OOP) is a programming paradigm centered around obje
 - **Modularity**: The source code for an object can be written and maintained independently of the source code for other objects.
 - **Reusability**: Objects can be reused across programs.
 - **Scalability**: OOP allows for scalability and code manageability as the project grows in size and complexity.
-
 ## Key Concepts of OOP
 
 ### 1. [[Class in Object-Oriented Programming (OOP)|Class]]:

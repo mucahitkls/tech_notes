@@ -29,23 +29,23 @@ In Object-Oriented Programming (OOP), objects are the central concept. They are 
 
 ## Advanced Aspects of Object in OOP
 
-### 1. Encapsulation:
+### 1. [[Encapsulation in Object-Oriented Programming (OOP)|Encapsulation]]:
 
 - Objects encapsulate both data and methods, hiding the internal state and requiring all interaction to occur through an object's methods. This promotes data integrity and security.
 
-### 2. Abstraction:
+### 2. [[Abstraction in Object-Oriented Programming (OOP)|Abstraction]]:
 
 - Objects provide a simplified interface to complex realities, exposing only the necessary components and hiding the underlying complexity.
 
-### 3. Inheritance:
+### 3. [[Inheritance in Object-Oriented Programming (OOP)|Inheritance]]:
 
 - Objects can inherit states and behaviors from other objects, promoting code reuse and a hierarchical organization.
 
-### 4. Polymorphism:
+### 4. [[Polymorphism in Object-Oriented Programming (OOP)|Polymorphism]]:
 
 - Objects can take many forms. A single function can work on different types of objects, and objects can be treated as instances of their parent class.
 
-### 5. Message Passing:
+### 5. [[Message Passing in Object-Oriented Programming (OOP)|Message Passing]]:
 
 - Objects communicate with one another through the sending of messages (i.e., calling methods).
 
