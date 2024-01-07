@@ -1,7 +1,7 @@
 
 ## Understanding the Iterator Design Pattern
 
-The Iterator Design Pattern is a behavioral design pattern that provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. It essentially provides a standard way to loop through a collection without needing to know the inner workings of the collection.
+The Iterator Design Pattern is a behavioral [[Design Patterns in Software Development|design pattern]] that provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. It essentially provides a standard way to loop through a collection without needing to know the inner workings of the collection.
 
 The key idea is to take the responsibility of traversal out of the list (or any collection) and put it into an iterator object. The Iterator pattern allows you to perform various types of traversals, and you can also create a new iterator for a new kind of traversal without changing the collection or the client.
 

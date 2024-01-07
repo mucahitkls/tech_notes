@@ -1,6 +1,6 @@
 ## Understanding the Command Design Pattern
 
-The Command Design Pattern is a behavioral design pattern that turns a request into a stand-alone object containing all information about the request. This transformation lets you parameterize methods with different requests, delay or queue a request's execution, and support undoable operations. Essentially, it encapsulates a request as an object, thereby allowing for the parameterization of clients with queues, requests, and operations.
+The Command Design Pattern is a behavioral [[Design Patterns in Software Development|design pattern]] that turns a request into a stand-alone object containing all information about the request. This transformation lets you parameterize methods with different requests, delay or queue a request's execution, and support undoable operations. Essentially, it encapsulates a request as an [[Object-Oriented Programming (OOP)|object]], thereby allowing for the parameterization of clients with queues, requests, and operations.
 
 ## Why Use the Command Pattern?
 
@@ -133,8 +133,8 @@ remote.submit(tvOnCommand); // TV is on
 ```
 
 **Improvements**: 
-- **Decoupling**: The remote control (Invoker) is decoupled from the devices it controls (Receivers). It knows nothing about the device's implementation.
-- **Flexibility**: New commands for different devices can be added without changing the existing code.
+- **[[Decoupling in Software Development|Decoupling]]**: The remote control (Invoker) is decoupled from the devices it controls (Receivers). It knows nothing about the device's implementation.
+- **[[Flexibility in Software Development|Flexibility]]**: New commands for different devices can be added without changing the existing code.
 - **Extensibility**: The system is easy to extend with new commands and receivers.
 
 ## Python Example of Command Pattern

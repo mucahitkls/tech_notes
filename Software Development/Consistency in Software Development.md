@@ -152,6 +152,6 @@ def funcB():
 **Improvements**:
 - **Uniformity**: Logs from all modules follow the same format and level.
 - **Ease of Use**: Developers and tools can easily parse and analyze logs.
-- **Maintainability**: Changing the logging format or level in `loggingConfig.py` updates it across the entire application.
+- **[[Maintainability in Software Development|Maintainability]]**: Changing the logging format or level in `loggingConfig.py` updates it across the entire application.
 
 In both examples, implementing consistency transformed the systems into more predictable, understandable, and maintainable architectures. Consistency in coding practices, error handling, logging, or any other aspect of software development doesn't just benefit the developers; it ultimately leads to a better product with fewer bugs, easier troubleshooting, and a more cohesive user experience. It's an investment in the quality and future of the software.
