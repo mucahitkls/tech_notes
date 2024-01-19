@@ -1,6 +1,6 @@
 ## Introduction to ACID Properties
 
-ACID is an acronym for Atomicity, Consistency, Isolation, and Durability. These are a set of properties that guarantee that database transactions are processed reliably and ensure the integrity of data in the database. Understanding ACID properties is crucial for anyone looking to design robust database systems and write optimized, reliable code.
+[[ACID Databases – Atomicity, Consistency, Isolation & Durability Explained|ACID]] is an acronym for Atomicity, Consistency, Isolation, and Durability. These are a set of properties that guarantee that database transactions are processed reliably and ensure the integrity of data in the database. Understanding ACID properties is crucial for anyone looking to design robust database systems and write optimized, reliable code.
 
 ## 1. Atomicity
 

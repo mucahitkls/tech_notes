@@ -3,6 +3,8 @@
 
 Abstraction in Object-Oriented Programming is a fundamental concept that focuses on hiding the complex reality while exposing only the necessary parts. It's about making complex systems simple by representing them with abstract entities.
 
+See [[Cloud Computing Abstractions]] article for another abstraction approach.
+
 ## Understanding Abstraction in OOP
 
 ### Definition:
